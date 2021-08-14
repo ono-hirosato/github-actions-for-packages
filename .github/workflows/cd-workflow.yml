@@ -3,7 +3,7 @@ name: Docker CD
 on:
   push:
     paths:
-    - "**Dockerfile**"
+      - "**Dockerfile**"
 
 jobs:
   build:
